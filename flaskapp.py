@@ -24,7 +24,7 @@ for row in table.find_all('tr')[1:]:
 browser.quit()
 
 history = pd.DataFrame(columns = ['Symbol','Date','Open','High','Low','Close','Volume','Dividends','Stock Splits'])
-
+symbol = ["AAPL","O"]
 for i in symbol:
     try:
         data = yf.Ticker(i).history(period = '1wk')
