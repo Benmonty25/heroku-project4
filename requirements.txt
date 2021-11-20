@@ -1,9 +1,6 @@
 absl-py==0.15.0
 alabaster==0.7.12
 altair==4.1.0
-anaconda-client
-anaconda-navigator
-anaconda-project
 anyio==2.2.0
 appdirs==1.4.4
 argh==0.26.2
