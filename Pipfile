@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+absl-py = "==0.15.0"
+tabpy = "*"
+yfinance = "*"
+splinter = "*"
+flask = "*"
+bs4 = "*"
+webdriver-manager = "*"
+gunicorn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
