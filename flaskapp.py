@@ -40,7 +40,7 @@ history.to_csv('Output/1wk_stock_history_test.csv',index=False)
 
 app = flask.Flask(__name__)
 
-@app.route("/api")
+@app.route("/")
 def index():
     return "Complete"
 
