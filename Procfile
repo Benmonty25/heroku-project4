@@ -1,0 +1,1 @@
+web: gunicorn 7-Day History:app --log-file-
